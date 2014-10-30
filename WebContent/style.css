@@ -1,0 +1,489 @@
+/* CSS Document */
+/* Search box page*/
+
+a{
+	display:none;
+	
+}
+
+body{
+	background-color:#7EC0EE;
+	max-width:100%;
+	font-family:'gotham rounded',arial,sans-serif;
+	max-height:768px;
+}
+
+#logoandtitle{
+	position:absolute;
+	top:80px;
+	left:36%;
+	width:30%;
+}
+
+img.logo{
+	position: absolute;
+	height: 200px;
+	width: 100%;
+	top: -1px;
+	
+}
+
+img.title{
+	position:absolute;
+	width:110%;
+	top:200px;
+	left:-10%;
+	
+}
+
+#Main{
+	position: absolute;
+	top: 397px;
+	left: 272px;
+	height: 200px;
+	width: 60%;
+	font-size: 18px;
+	
+}
+
+button{
+	position:absolute;	
+	width:30%;
+	height:50px;
+	font-size:24px;
+	color:#fff;
+	background:#93F;
+	border-radius:10px;
+	
+	
+	
+	
+}
+
+.searchbox1{
+	position:relative;
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 50px;
+	width: 70%;
+	font-size:36px;
+	color:#023280;
+	
+}
+
+
+
+
+.searchbox2{
+	font-family:'gotham rounded',arial,sans-serif;
+	position:relative;
+	top:20px;
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 50px;
+	width: 50%;
+	font-size:36px;
+	background:#FFF;
+	text-align:center;
+	color:#023280;
+}
+
+.searchbox2a{
+	font-family:'gotham rounded',arial,sans-serif;
+	position:relative;
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 40px;
+	width: 100%;
+	font-size:28px;
+	background:#FFF;
+	text-align:center;
+	color:#023280;
+}
+
+.emailbox{
+	position:relative;
+	left:51%;
+	top:-30px;
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 50px;
+	width: 49%;
+	font-size:24px;
+	background:#FFF;
+	text-align:center;
+	color:#023280;
+}
+
+.emailbox2{
+	position:relative;
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 50px;
+	width: 100%;
+	font-size:24px;
+	background:#FFF;
+	text-align:center;
+	color:#023280;
+	
+}
+
+input[type="radio"]{
+	
+  margin:  10px 10px 0px 10px;
+}	
+
+
+.gobutton{
+	position:absolute;
+	left:101%;
+	top:-5px;
+	height:120px;
+	width:15%;
+	font-size:36px;
+	border-radius:50px;
+}
+
+#advancedsearch{
+	position: absolute;
+	height: 300px;
+	font-size: 24px;
+	width: 60%;
+	left: 20%;
+	color: #FFF;
+	
+	
+}
+
+#formwrapper{
+	z-index:1000;
+	position:absolute;
+	left:25%;
+	width:50%;
+	height:700px;
+}
+
+.fullwidth, .return{
+	text-align:center;
+	width:100%;	
+	height:50px;
+	border-radius:10px;
+	font-size:20px;
+	border:2px solid #456879;
+}
+
+
+	
+
+.submit{
+	position:relative;	
+	width:60%;
+	left:30%;
+	height:50px;
+	font-size:30px;
+	color:#369;
+		
+}
+
+
+
+
+
+.twitter_load{
+	position: absolute;
+	top:-300px;
+	left: 35%;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-color: #FFF;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.twitter_load p{
+	font-variant: small-caps;
+	text-align:center;
+	font-size:28px;
+	position:relative;
+	width:250px;
+	color:#fff;
+}	
+
+
+
+/*Results page*/
+
+#firstpage{
+	position: absolute;
+	height: 768px;
+	width: 99%;
+	background-color:#7EC0EE;
+}
+
+#firstpage p{
+	position:relative;
+	text-align:center;	
+}
+
+#searchagain{
+	position:absolute;
+	top:600px;	
+	left:10%;
+	font-size:20px;
+	width:20%;
+}
+
+#searchagain{
+	position:absolute;
+	top:550px;	
+	left:5%;
+	font-size:20px;
+	width:20%;
+}
+
+#searchagain a, #showtweetsinfo a{
+	display:inline;
+	text-decoration	:none;
+	color			:#000;
+	background-color:#fff;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:5%;
+	padding-right:5%;
+	border-radius:10px;
+	
+}
+
+#showtweetsinfo{
+	position:absolute;
+	top:550px;
+	left:80%;
+	width:20%;
+	font-size:20px;
+}
+
+
+#chartdivnew {
+	position	: absolute;
+	top			:30px;
+	width		: 100%;
+	height		: 700px;
+	font-size	: 11px;
+	
+}
+
+
+
+
+#results{
+	position: absolute;
+	top:740px;
+	left:60%;
+	width:40%;
+	height:900px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	color:#fff;
+	z-index:500;
+	
+}
+
+
+
+#showonlytweets {
+	display:inline;
+	position:relative;	
+	width:100%;
+	height:50px;
+}
+
+#showonlytweets ul li{
+	display:inline;
+	
+}	
+
+#showonlytweets li{
+	padding:5px;
+	border:3px solid #fff;
+	font-size:17px;
+	border-radius:10px;
+	
+}
+
+#showonlytweets a{
+	padding:5px;
+	
+	padding:50px;
+	width:100%;
+}
+
+
+
+#resulttext{
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	font-family:'gotham rounded',arial,sans-serif;
+	font-size: 18px;
+	color:#fff;
+	top: 4px;
+	text-align:center;
+	
+}
+
+.username{
+	position:relative;	
+	left:35%;
+	top:-25px;
+	width:30%;
+	font-size:20px;
+	height:20px;
+}
+
+.text{
+	position: relative;
+	left:35%;
+	height: 50px;
+	top:-30px;
+	width: 60%;
+	font-size: 16px;
+}
+
+
+
+
+.image{
+	position:relative;
+	height:59px;
+	width:100%;
+	height:14%;
+	border-radius:40px;
+}
+
+.fixedsize{
+	height:150px;
+	border-radius:40px;
+	width:30%;
+	
+		
+}
+
+.positivetweet{
+	position:relative;
+	border-radius:40px;
+	width:100%;
+	background:rgba(82,218,60,0.8);
+	height:150px;
+	
+}
+
+.positivetweet:hover{
+	background:rgba(82,218,60,1.0);
+}
+
+.negativetweet:hover{
+	background:rgba(218,62,39,1.0);
+}
+.neutraltweet:hover{
+	background:rgba(168,60,218,1.0);
+}
+
+
+.negativetweet{
+	position:relative;
+	border-radius:40px;
+	width:100%;
+	height:150px;
+	border:20px;
+	background:rgba(218,62,39,0.8);
+	
+}
+
+.neutraltweet{
+	position:relative;
+	border-radius:40px;
+	width:100%;
+	background:rgba(168,60,218,0.8);
+	border:20px;
+	height:150px;
+}
+
+
+#topRetweets{
+	z-index:40;
+	position: absolute;
+	top: 600px;
+	width: 40%;
+	height: 400px;
+}
+
+	#topRetweets br{
+	display:none;
+	}
+	
+	#topRetweets .grade{
+		position:relative;
+		top:40px;
+		left:100%;
+		z-index:400;
+		font-size:20px;
+		border:3px solid #fff;
+		border-radius:10px;
+		width:4%;
+		text-align:center;
+		color:#fff;
+	}
+	
+	#topRetweets .retweet{
+		position:relative;
+		color:#fff;
+		left:65%;
+		
+		width:40%;
+		top:150px;
+		z-index:400;
+	}
+	
+
+	#topRetweets p{
+	padding:0;
+	border:0;
+	text-align:center;
+	color:#fff;
+	}
+	
+	#title{
+		position:relative;
+		top:50px;
+		z-index:100;	
+		text-align:center;
+		color:#fff;
+	}
+
+#followerschart {
+	position:absolute;
+	top:1350px;
+	width		: 40%;
+	height		: 300px;
+	font-size	: 11px;
+}		
+
+#followersdiv p{
+	position:absolute;
+	top:1300px;
+	width:44%;
+	text-align:center;
+	font-size:20px;
+	color:#fff;
+}
+
+#footer{
+	position:absolute;
+	width:100%;
+	top:1700px;
+	height:50px;
+	background:#45416D;
+}
